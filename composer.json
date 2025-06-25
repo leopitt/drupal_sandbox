@@ -36,6 +36,8 @@
         "drupal/drupal_cms_starter": "~1.1.0",
         "drupal/project_browser": "@beta",
         "drupal/recipe_installer_kit": "^1-alpha3@alpha",
+        "drupal/tailwindcss": "^5.0@alpha",
+        "drupal/ui_patterns": "^2.0",
         "drupal/webform": "@beta",
         "drush/drush": "^13"
     },
