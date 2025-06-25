@@ -1,0 +1,22 @@
+uuid: ede1f3c3-4659-49dd-99b7-c9f831e8904b
+langcode: en
+status: true
+dependencies:
+  theme:
+    - tailwindcss_sandbox
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: tailwindcss_sandbox_primary_local_tasks
+theme: tailwindcss_sandbox
+region: highlighted
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

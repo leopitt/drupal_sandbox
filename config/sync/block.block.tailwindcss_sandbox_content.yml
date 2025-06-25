@@ -1,0 +1,22 @@
+uuid: a4283130-c2f4-49cb-b0b1-ce9ba0d680e5
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - tailwindcss_sandbox
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: tailwindcss_sandbox_content
+theme: tailwindcss_sandbox
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }
