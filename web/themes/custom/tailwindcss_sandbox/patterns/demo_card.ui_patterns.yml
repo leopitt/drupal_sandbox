@@ -1,0 +1,21 @@
+demo_card:
+  label: Demo Card
+  description: A simple demonstration card pattern for the Sandbox theme
+  fields:
+    title:
+      type: text
+      label: Card Title
+      description: The main title displayed in the card header
+      preview: "Welcome to Sandbox"
+    subtitle:
+      type: text
+      label: Card Subtitle
+      description: Optional subtitle text
+      preview: "This is a demonstration"
+    content:
+      type: text
+      label: Card Content
+      description: The main content area of the card
+      preview: "This is a simple UI Patterns component demonstrating that the setup is working correctly."
+  libraries:
+    - tailwindcss_sandbox/demo-card

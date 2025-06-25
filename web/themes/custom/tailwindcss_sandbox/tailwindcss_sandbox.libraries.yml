@@ -1,0 +1,9 @@
+global-styling:
+  css:
+    base:
+      dist/tailwind.css: {}
+
+demo-card:
+  css:
+    component:
+      components/demo-card/demo-card.css: {}

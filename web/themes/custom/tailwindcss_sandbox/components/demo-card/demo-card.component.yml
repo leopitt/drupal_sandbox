@@ -1,0 +1,29 @@
+$schema: https://git.drupalcode.org/project/drupal/-/raw/HEAD/core/assets/schemas/v1/metadata.schema.json
+name: Demo Card
+status: experimental
+description: A simple demonstration card component for the Sandbox theme
+props:
+  type: object
+  required:
+    - title
+  properties:
+    title:
+      type: string
+      title: Card Title
+      description: The main title displayed in the card header
+      examples:
+        - "Welcome to Sandbox"
+        - "Demo Component"
+    subtitle:
+      type: string
+      title: Card Subtitle
+      description: Optional subtitle text
+      examples:
+        - "This is a demonstration"
+slots:
+  card_body:
+    title: Card Body
+    description: The main content area of the card
+    examples:
+      - "<p>This is a simple SDC component demonstrating that the setup is working correctly.</p>"
+      - "<p>You can add any content here including <strong>HTML markup</strong>.</p>"

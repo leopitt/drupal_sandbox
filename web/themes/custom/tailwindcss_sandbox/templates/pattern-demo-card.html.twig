@@ -1,0 +1,29 @@
+{% set classes = [
+  'bg-white',
+  'rounded-lg',
+  'shadow-md',
+  'p-6',
+  'border',
+  'border-gray-200',
+  'hover:shadow-lg',
+  'transition-shadow',
+  'duration-300',
+  'max-w-md',
+  'mx-auto',
+  'my-4'
+] %}
+
+<div class="{{ classes|join(' ') }}">
+  <div class="mb-4">
+    <h3 class="text-xl font-bold text-gray-800 mb-2">{{ title }}</h3>
+    {% if subtitle %}
+      <p class="text-sm text-gray-600">{{ subtitle }}</p>
+    {% endif %}
+  </div>
+  
+  {% if content %}
+    <div class="text-gray-700 leading-relaxed">
+      {{ content }}
+    </div>
+  {% endif %}
+</div>
