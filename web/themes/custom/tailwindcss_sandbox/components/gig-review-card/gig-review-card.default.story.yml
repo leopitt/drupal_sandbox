@@ -1,0 +1,8 @@
+name: Preview
+props:
+  title: 'Lana Del Rey live in Cardiff: stadium spectacle on her own terms'
+  description: 'A captivating performance that showcased her unique artistry and stage presence'
+  image_url: 'https://placehold.co/400x225/ff6b6b/ffffff?text=Concert+Photo'
+  rating: 5
+  attributes:
+    data-component-id: "tailwindcss_sandbox:gig-review-card"

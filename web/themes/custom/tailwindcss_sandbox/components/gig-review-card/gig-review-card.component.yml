@@ -1,0 +1,41 @@
+$schema: https://git.drupalcode.org/project/drupal/-/raw/HEAD/core/assets/schemas/v1/metadata.schema.json
+name: Gig Review Card
+status: experimental
+description: A card component for displaying individual gig reviews with image, title, description, and star rating
+props:
+  type: object
+  required:
+    - title
+    - image_url
+    - rating
+  properties:
+    title:
+      type: string
+      title: Review Title
+      description: The main title of the gig review
+      examples:
+        - "Lana Del Rey live in Cardiff: stadium spectacle on her own terms"
+        - "Charli XCX's Partygirl live in London: celebrating the community and creators of 'Brat' summer"
+    description:
+      type: string
+      title: Review Description
+      description: Optional description text for the review
+      examples:
+        - "A captivating performance that showcased her unique artistry"
+        - "An unforgettable night celebrating music and community"
+    image_url:
+      type: string
+      title: Performance Image URL
+      description: URL to the performance image
+      examples:
+        - "/path/to/performance-image.jpg"
+        - "https://example.com/concert-photo.jpg"
+    rating:
+      type: integer
+      title: Star Rating
+      description: Rating from 1 to 5 stars
+      minimum: 1
+      maximum: 5
+      examples:
+        - 5
+        - 4
