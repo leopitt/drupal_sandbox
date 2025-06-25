@@ -1,0 +1,6 @@
+name: Preview
+props:
+  title: 'Lorem Ipsum'
+  subtitle: 'Subtitle Text'
+  attributes:
+    data-component-id: "tailwindcss_sandbox:demo-card"

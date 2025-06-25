@@ -6,3 +6,6 @@ base theme: stable9
 libraries:
   - tailwindcss_sandbox/global-styling
 starterkit: true
+dependencies:
+  - ui_patterns:ui_patterns
+  - ui_patterns:ui_patterns_library
