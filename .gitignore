@@ -1,0 +1,22 @@
+# Directories with packages managed by composer.
+vendor
+recipes
+web/core
+web/libraries/*
+web/modules/contrib
+web/profiles/contrib
+web/recipes/contrib
+web/themes/contrib
+web/README.md
+web/modules/README.txt
+web/profiles/README.txt
+web/sites/README.txt
+web/themes/README.txt
+
+# Drupal files directory.
+web/sites/default/files
+
+# Local env files.
+.idea
+.codecept
+.DS_Store
