@@ -1,0 +1,20 @@
+$schema: https://git.drupalcode.org/project/drupal/-/raw/HEAD/core/assets/schemas/v1/metadata.schema.json
+name: Gig Reviews Row
+status: experimental
+description: A container component that displays four gig review cards in a horizontal row
+props:
+  type: object
+  properties:
+    section_title:
+      type: string
+      title: Section Title
+      description: The main heading for the reviews section
+      examples:
+        - "GIG REVIEWS"
+        - "LATEST REVIEWS"
+slots:
+  reviews:
+    title: Review Cards
+    description: The gig review cards to display in the row
+    examples:
+      - "<p>Gig review cards will be inserted here</p>"

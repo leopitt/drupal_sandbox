@@ -1,0 +1,17 @@
+{% set classes = [
+  'bg-black',
+  'py-12',
+  'px-4'
+] %}
+
+<section {{ attributes.addClass(classes) }}>
+  <div class="max-w-7xl mx-auto">
+    {% if section_title %}
+      <h2 class="text-white text-3xl font-bold mb-8 tracking-wide">{{ section_title }}</h2>
+    {% endif %}
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      {{ reviews }}
+    </div>
+  </div>
+</section>
